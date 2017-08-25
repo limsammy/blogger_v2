@@ -14,6 +14,14 @@
  *= require_self
  */
 
-body {
+div.articles {
   margin-left: 50px;
+}
+
+div.new {
+  margin-left: 25px;
+}
+
+div.nav-wrapper {
+  padding-left: 15px;
 }
