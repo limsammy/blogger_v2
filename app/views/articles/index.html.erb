@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  </head>
+
+  <body>
+    <h1>All Articles</h1>
+
+    <ul id="articles">
+      <% @articles.each do |article| %>
+      <li>
+        <%= article.title %>
+      </li>
+      <% end %>
+    </ul>
+  </body>
+</html>
