@@ -1,21 +1,11 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <%= stylesheet_link_tag :application %>
-  </head>
-
-  <body>
-    <h1>All Articles</h1>
-
-    <ul id="articles">
-      <% @articles.each do |article| %>
-      <li>
-        <%= link_to article.title, article_path(article),
-        class: 'waves-light btn-flat', id: "article_#{article.id}" %>
-      </li>
-      <% end %>
-    </ul>
+<h1>All Articles</h1>
+  <ul id="articles">
+    <% @articles.each do |article| %>
+    <li>
+      <%= link_to article.title, article_path(article),
+      class: 'waves-light btn-flat', id: "article_#{article.id}" %>
+    </li>
+    <% end %>
+  </ul>
 
     <%= link_to "Create a New Article", new_article_path, class: "waves-light btn" %>
-  </body>
-</html>
