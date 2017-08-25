@@ -1,11 +1,10 @@
 <div class="articles">
   <h1>All Articles</h1>
-  <ul id="articles">
+  <ul class="collection" id="articles">
     <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article_path(article),
-      class: 'waves-light btn-flat', id: "article_#{article.id}" %>
-    </li>
+        <li class="collection-item">
+          <%= link_to article.title, article_path(article) %>
+        </li>
     <% end %>
   </ul>
 </div>

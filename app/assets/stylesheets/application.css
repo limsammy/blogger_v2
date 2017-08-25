@@ -16,6 +16,7 @@
 
 div.articles {
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 div.new {
@@ -24,4 +25,5 @@ div.new {
 
 div.nav-wrapper {
   padding-left: 15px;
+  padding-right: 15px;
 }
