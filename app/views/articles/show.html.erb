@@ -4,3 +4,4 @@
 <%= link_to "delete", @article, method: 'delete',
                                               class: "waves-light btn",
                                               data: {confirm: "Really delete the article?"} %>
+<%= link_to "edit", edit_article_path(@article), class: "waves-light btn" %>
