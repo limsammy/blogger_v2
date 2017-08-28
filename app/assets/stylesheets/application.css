@@ -27,3 +27,14 @@ div.nav-wrapper {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+div.comment_title {
+}
+
+div.comments {
+  background-color: #bfc4cc;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30
+}
